@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<h1>About</h1>
+	<h1>Modern Resume Template</h1>
+	
+	<a href="modern.about.html"><button>About</button></a>
+	<a href="modern.about.html"><button>Resume</button></a>
+	<a href="modern.about.html"><button>Projects</button></a>
+	<a href="modern.about.html"><button>Blog</button></a>
+	<p><a href="index.html"><button>Home Page</button></a></p>
 
-	<p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
-	<p><label for="file">Upload Image</label></p>
-	<p><img id="output" width="200" /></p>
-
-	<script>
-	var loadFile = function(event) {
-		var image = document.getElementById('output');
-		image.src = URL.createObjectURL(event.target.files[0]);
-	};
-	</script>
-
-	<p><textarea id="about" name="about" rows="4" cols="50">
-Your text here
-	</textarea></p>
-
-	<a href="template.html"><button>Back</button></a>
-	<a href="index.html"><button>Home Page</button></a>
 </body>
 </html>
