@@ -3,9 +3,30 @@
 <body>
 	<h1>Resume</h1>
 	
-	<p><textarea id="blog" name="blog" rows="4" cols="50">
+	<p><textarea id="resume" name="resume" rows="4" cols="50">
 Write about you
 	</textarea></p>
+
+	<script>  
+	function concactInfo() {  
+	var mylist = document.getElementById("contactInfo");  
+	document.getElementById("contactInfo").value = mylist.options[mylist.selectedIndex].text;  
+	}  
+	</script>  
+
+	<select id = "contactInfo" onchange = "favTutorial()" > 
+	<option> --Contact Info-- </option> 
+	<option> Email </option>  
+	<option> StackOverflow </option>  
+	<option> GitHub </option>  
+	<option> LinkedIn </option>  
+	<option> Handshake </option>  
+	</select>  
+
+	<form>
+	Information:
+	<input type="text" name="username">
+	</form>
 
 	<form>
  	<input type="button" value="Back" onclick="history.back()">
