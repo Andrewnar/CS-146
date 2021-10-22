@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<style>
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	</style>
+</head>
+
 <title>Minimalist Resume</title>
 <body>
 	<h1>Resume</h1>
-	
-	<p><textarea id="resume" name="resume" rows="4" cols="50">
-Write about you
-	</textarea></p>
 
-	<h2>Work Experience</h2>
-	<p><textarea id="work_exp" name="work_exp" rows="4" cols="50">
+	<hr>
+
+<div class = "row">
+	<div class = "column">
+	<h2>Experience</h2>
+	<p><textarea id="exp" name="exp" rows="4" cols="50">
 Write about you
 	</textarea></p>
+	<hr>
 
 	<h2>Academic Progress</h2>
 	<p><textarea id="academic" name="academic" rows="4" cols="50">
 Write about you
 	</textarea></p>
+	<hr>
+	</div>
 
-	<h2>Achievements</h2>
-	<p><textarea id="achievements" name="achievements" rows="4" cols="50">
+	<div class = "column">
+	<h2>Skills</h2>
+	<p><textarea id="skills" name="skills" rows="4" cols="50">
 Write about you
 	</textarea></p>
+	<hr>
+
+	<h2>Projects</h2>
+	<p><textarea id="projects" name="projects" rows="4" cols="50">
+Write about you
+	</textarea></p>
+	<hr>
+	</div>
+</div>
 
 	<script>  
 	function concactInfo() {  
