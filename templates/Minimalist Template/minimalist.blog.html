@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<style>
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  div.scroll {
+    width: 800px;
+    height: 150px;
+    overflow: auto;
+    text-align: justify;
+    padding: 20px;
+}
+	</style>
+</head>
+
 <title>Minimalist Blog</title>
 <body>
+<div class = "row">
+	<div class = "column">
 	<h1>Blog</h1>
 
 	<p><textarea id="blog" name="blog" rows="4" cols="50">
 Write a comment
 	</textarea></p>
 	<p><button>Post</button></p>
+	<hr>
+	</div>
+
+	<div class = "column">
+	<h1>Comments</h1>
+
+	<div class = "scroll">
+		This is a test. These sentences don't have any meaning behind them whatsoever. The following will be random gibberish. a had ashdafnei ffemjke nfjenf jaen f eafoaef oaefoae kaefoae n feanf aenfa ekmc aklsm fjenf ioaejf eiofj ewiofjwe o fnweof nw ej fnwijfnsufbs ergbepgbqw ipgbwqir gwirgb ewrig nwrbfg weufbiwe fbweuhncwei  ewuyf ewuf bewu fewuf weifjq odjqidjqwi fdhqw fqwfhqei f hqe pfihqwdjj qwdoqhduq  diuqwhduiqw dqwd nqwj nqxjnxjqwmxkqwmsdiqwb qf bequf bweufb weuhfb weidnqinxqsmx ijq n do qkmije wnfiuew fniewqnfiew nfwei qfnq  mxqwxqwxiqmwd iqewgbfuq nfiqjwmdx iqi qwj js hqw iurhieugiwur cm ewqhebduewkljdq a had ashdafnei ffemjke nfjenf jaen f eafoaef oaefoae kaefoae n feanf aenfa ekmc aklsm fjenf ioaejf eiofj ewiofjwe o fnweof nw ej fnwijfnsufbs ergbepgbqw ipgbwqir gwirgb ewrig nwrbfg weufbiwe fbweuhncwei  ewuyf ewuf bewu fewuf weifjq odjqidjqwi fdhqw fqwfhqei f hqe pfihqwdjj qwdoqhduq  diuqwhduiqw dqwd nqwj nqxjnxjqwmxkqwmsdiqwb qf bequf bweufb weuhfb weidnqinxqsmx ijq n do qkmije wnfiuew fniewqnfiew nfwei qfnq  mxqwxqwxiqmwd iqewgbfuq nfiqjwmdx iqi qwj js hqw iurhieugiwur cm ewqhebduewkljdq
+	</div>
+
+	</div>
+</div>
 
 	<p><a href="minimalist.home.html"><button>Minimalist Home</button></a></p>
 

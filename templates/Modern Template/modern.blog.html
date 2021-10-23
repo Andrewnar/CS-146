@@ -1,14 +1,119 @@
 <!DOCTYPE html>
 <html>
-<title>Modern Blog</title>
+<head>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 30px;
+  font-size: 35px;
+  text-align: center;
+  background: white;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: whitesmoke;
+  margin-top: 20px;
+}
+
+.background {
+  background-color: grey;
+  width: 100%;
+  padding: 20px;
+}
+
+.box {
+   background-color: whitesmoke;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+div.scroll {
+    width: 800px;
+    height: 150px;
+    overflow: auto;
+    text-align: justify;
+    padding: 20px;
+}
+
+	</style>
+</head>
+
+<!-- This format has w3schools influence. Didn't know what a blog should look like. We can change this later if needed -->
 <body>
-	<h1>Blog</h1>
 
-	<p><textarea id="blog" name="blog" rows="4" cols="50">
-Write a comment
-	</textarea></p>
-	<p><button>Post</button></p>
+<div class="header">
+	<h2>Someone's Blog</h2>
+</div>
 
-    <p><a href="modern.home.html"><button>Modern Home</button></a></p>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="box">
+    	<h2>Title</h2>
+    	<h4>Description</h4>
+    	<div class="background" style="height:200px;">Image</div>
+    	<p>Text</p>
+    	<p>Blah blah blah more text</p>
+    </div>
+    <div class="box">
+    	<h2>Title</h2>
+    	<h4>Description</h4>
+    	<div class="background" style="height:200px;">Image</div>
+    	<p>Text</p>
+    	<p>Blah blah blah more text</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+  	<div class="box">
+    	<h2>About</h2>
+    	<div class="background" style="height:100px;">Image</div>
+    	<p>Text</p>
+    </div>
+    <div class="box">
+    	<h3>Comments</h3>
+    	<div class = "scroll">
+    	<p><textarea id="blog" name="blog" rows="4" cols="50">
+		Write a comment
+		</textarea></p>
+		</div>
+		<p><button>Like</button><button>Dislike</button></p>
+		<p><button>Post</button></p>
+    </div>
+    <div class="box" style="height:246px;">
+    	<h3>Contact Info</h3>
+    	<p>Insert here</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+	<hr>
+	<p><button>Save</button><button>Save As</button></p>
+	<p><a href="modern.home.html"><button>Modern Home</button></a></p>
+
 </body>
 </html>
