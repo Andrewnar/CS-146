@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+p {
+
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+div {
+    color: white;
+    text-align: center;
+}
+textarea {
+    background-color: gray;
+    color: white;
+    outline-style: solid;
+    outline-color: black;
+}
