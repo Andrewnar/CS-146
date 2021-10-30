@@ -3,6 +3,7 @@
 <head>
 <title>Modern Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="modern_style.css">
 <link rel="stylesheet" href="mobile.css"  media="screen and (max-width:480px)" />
 <link rel="stylesheet" href="tablet.css"  media="screen and (min-width:481px)
     and (max-width:768px)" />
@@ -18,26 +19,32 @@
   padding: 30px;
   font-size: 35px;
   text-align: center;
-  background: white;
+  background: rgb(63, 63, 104);
+  outline-style: solid;
+  outline-color: rgb(172, 206, 240) ;
 }
 
 .footer {
   padding: 20px;
   text-align: center;
-  background: whitesmoke;
+  background: rgb(63, 63, 104);
   margin-top: 20px;
+  outline-style: solid;
+  outline-color: rgb(172, 206, 240) ;
 }
 
 .background {
-  background-color: grey;
+  background-color: rgb(63, 63, 104);
   width: 100%;
   padding: 20px;
 }
 
 .box {
-   background-color: whitesmoke;
+   background-color: rgb(63, 63, 104);
    padding: 20px;
    margin-top: 20px;
+   outline-style: solid;
+   outline-color: rgb(172, 206, 240) ;
 }
 
 .row:after {
@@ -78,14 +85,14 @@ div.scroll {
     <div class="box">
     	<h2>Title</h2>
     	<h4>Description</h4>
-    	<div class="background" style="height:200px;">Image</div>
+    	<div class="box" style="height:200px;">Image</div>
     	<p>Text</p>
     	<p>Blah blah blah more text</p>
     </div>
     <div class="box">
     	<h2>Title</h2>
     	<h4>Description</h4>
-    	<div class="background" style="height:200px;">Image</div>
+    	<div class="box" style="height:200px;">Image</div>
     	<p>Text</p>
     	<p>Blah blah blah more text</p>
     </div>
@@ -93,7 +100,7 @@ div.scroll {
   <div class="rightcolumn">
   	<div class="box">
     	<h2>About</h2>
-    	<div class="background" style="height:100px;">Image</div>
+    	<div class="box" style="height:100px;">Image</div>
     	<p>Text</p>
     </div>
     <div class="box">
