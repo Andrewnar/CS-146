@@ -34,3 +34,20 @@ textarea {
     outline-style: solid;
     outline-color: black;
 }
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  div.scroll {
+    width: 800px;
+    height: 150px;
+    overflow: auto;
+    text-align: justify;
+    padding: 20px;
+}

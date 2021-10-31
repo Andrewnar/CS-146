@@ -43,3 +43,76 @@ textarea {
     outline-style: solid;
     outline-color: lightskyblue;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 30px;
+  font-size: 35px;
+  text-align: center;
+  background: rgb(63, 63, 104);
+  outline-style: solid;
+  outline-color: rgb(172, 206, 240) ;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(63, 63, 104);
+  margin-top: 20px;
+  outline-style: solid;
+  outline-color: rgb(172, 206, 240) ;
+}
+
+.background {
+  background-color: rgb(63, 63, 104);
+  width: 100%;
+  padding: 20px;
+}
+
+.box {
+   background-color: rgb(63, 63, 104);
+   padding: 20px;
+   margin-top: 20px;
+   outline-style: solid;
+   outline-color: rgb(172, 206, 240) ;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+div.scroll {
+    width: 400px;
+    height: 150px;
+    overflow: auto;
+    text-align: justify;
+    padding: 20px;
+}
+.description {
+    height: 200px;
+}
+.about {
+    height:  100px;
+}
+.contact {
+    height: 246px;
+}

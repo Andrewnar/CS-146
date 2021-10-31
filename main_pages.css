@@ -1,0 +1,46 @@
+.header {
+        padding: 10px;
+        text-align: center;
+        background: #659DBD;
+        color: white;
+        font-size: 30px;
+    }
+.header1
+{
+    font-style: italic;
+    color: darkred;
+}
+.bold
+{
+    font-style: italic;
+    color: darkred;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.scroll {
+    width: 800px;
+    height: 150px;
+    overflow: auto;
+    text-align: justify;
+    padding: 20px;
+}
+.templates {
+    padding: 10px;
+    text-align: center;
+    background: #659DBD;
+    color: white;
+    font-size: 30px;
+}
+.img{
+    float: right;
+    margin-left: 15px;
+}
