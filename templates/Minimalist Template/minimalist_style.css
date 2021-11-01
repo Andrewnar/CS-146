@@ -1,37 +1,36 @@
 body {
-    background-color: gray;
+    /**background-image: url("../../images/background.jpg");*/
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
-
 h1 {
+    color: #24344c;
+    text-shadow: 10px 10px 10px #747484;
     text-align: center;
-    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-    color: white;
+    font-size: 6em;
+    clear: both;
+    padding-top: .5em;
+}
+h2, h3 {
+    text-align: center;
+    color: #7DA2A9;
     font-family: 'Times New Roman', Times, serif;
     }
-
-h3 {
-    text-align: center;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    }
-
-
 p {
-
     text-align: center;
-    color: white;
+    color: #7DA2A9;
     font-family: 'Times New Roman', Times, serif;
     
 }
 
 div {
-    color: white;
+    color: #7DA2A9;
     text-align: center;
 }
 textarea {
-    background-color: gray;
-    color: white;
-    outline-style: solid;
+    background-color: #b8b8b8
     outline-color: black;
 }
 .column {
@@ -50,4 +49,23 @@ textarea {
     overflow: auto;
     text-align: justify;
     padding: 20px;
+}
+
+.social{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+  }
+
+#github{
+    width: 2.7em;
+    height: auto;
+    border: 0;
+}
+#linkedin{
+    width: 2.5em;
+    height: auto;
+    border: 0;
 }
