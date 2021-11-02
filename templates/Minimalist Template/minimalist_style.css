@@ -44,7 +44,7 @@ textarea {
   clear: both;
 }
   div.scroll {
-    width: 800px;
+    width: 100%;
     height: 150px;
     overflow: auto;
     text-align: justify;

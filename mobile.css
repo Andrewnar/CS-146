@@ -1,4 +1,14 @@
 body {
  margin: 0px;
  padding: 10px;
+ width: 400px;
+}
+.column {
+ width: 100%;
+}
+.leftcolumn {
+ width: 100%;
+}
+.rightcolumn {
+ width: 100%;
 }

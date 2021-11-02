@@ -27,7 +27,7 @@
 }
 
 div.scroll {
-    width: 800px;
+    width: 50%;
     height: 150px;
     overflow: auto;
     text-align: justify;

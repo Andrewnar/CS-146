@@ -101,18 +101,18 @@ textarea {
 }
 
 div.scroll {
-    width: 400px;
-    height: 150px;
+    width: 50%;
+    height: 20%;
     overflow: auto;
     text-align: justify;
     padding: 20px;
 }
 .description {
-    height: 200px;
+    height: 25%;
 }
 .about {
-    height:  100px;
+    height:  15%;
 }
 .contact {
-    height: 246px;
+    height: 35%;
 }
