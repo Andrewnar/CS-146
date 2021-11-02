@@ -43,4 +43,7 @@ div.scroll {
 .img{
     float: right;
     margin-left: 15px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
