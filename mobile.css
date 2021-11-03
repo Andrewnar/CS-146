@@ -3,12 +3,19 @@ body {
  padding: 10px;
  width: 400px;
 }
+.row:after {
+  display: none;
+  clear: none;
+}
 .column {
+ float: none;
  width: 100%;
 }
 .leftcolumn {
+ float: none;
  width: 100%;
 }
 .rightcolumn {
+ float: none;
  width: 100%;
 }
