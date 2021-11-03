@@ -1,0 +1,17 @@
+body{
+        background-color: #659DBD;
+}
+
+
+.header1
+{
+        font-size: 40px;
+        font-style: italic; 
+        color: darkred;
+}
+
+.button{
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+}
