@@ -7,6 +7,7 @@
     }
 .header1
 {
+    font-size: 40px;
     font-style: italic;
     color: darkred;
 }
@@ -46,4 +47,15 @@ div.scroll {
     width: 100%;
     max-width: 100%;
     height: auto;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.description{
+    font-size: 25px;
+}
+.category{
+    font-size: 60px;
 }

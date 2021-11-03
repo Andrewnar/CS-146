@@ -7,6 +7,7 @@ h1 {
     text-align: center;
     text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     color:rgb(172, 206, 240);
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     }
 
@@ -14,12 +15,14 @@ h2 {
     text-align: center;
     text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     color:rgb(172, 206, 240);
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     }
 
 h3 {
     text-align: center;
     color: rgb(172, 206, 240);
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     }
 
@@ -28,6 +31,7 @@ p {
 
     text-align: center;
     color: rgb(172, 206, 240);
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     
     
@@ -115,4 +119,9 @@ div.scroll {
 }
 .contact {
     height: 35%;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
 }
