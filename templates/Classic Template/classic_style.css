@@ -32,7 +32,12 @@ p {
     font-family: 'Times New Roman', Times, serif;
     
 }
-
+form {
+    color: rgb(204, 99, 99);
+}
+input {
+    color: rgb(204, 99, 99);
+}
 div {
     color: rgb(204, 99, 99);
     text-align: center;

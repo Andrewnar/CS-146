@@ -36,7 +36,12 @@ p {
     
     
 }
-
+form {
+    color: rgb(172, 206, 240);
+}
+input {
+    color: rgb(172, 206, 240);
+}
 div {
     color: rgb(172, 206, 240);
     text-align: center;
