@@ -13,4 +13,5 @@ div {
     width: 150px;
     height: 30px;
     font-size: 15px;
+    border-radius: 4px;
 }
