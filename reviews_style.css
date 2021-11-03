@@ -9,3 +9,8 @@ div {
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
+.button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
