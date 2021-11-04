@@ -55,8 +55,10 @@ div.scroll {
     border-radius: 4px;
 }
 .description{
+    margin-top: auto;
     font-size: 25px;
 }
 .category{
-    font-size: 60px;
+    font-size: 40px;
+    text-align: center;
 }
