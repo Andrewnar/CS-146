@@ -12,17 +12,21 @@ h1 {
     }
 
 h2 {
+    margin: auto;
+    border: auto;
     text-align: center;
     text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     color:rgb(172, 206, 240);
-    font-size: 40px;
+    font-size: 100%;
     font-family: 'Times New Roman', Times, serif;
     }
 
 h3 {
+    margin: auto;
+    border: auto;
     text-align: center;
     color: rgb(172, 206, 240);
-    font-size: 30px;
+    font-size: 100%;
     font-family: 'Times New Roman', Times, serif;
     }
 
@@ -31,7 +35,7 @@ p {
 
     text-align: center;
     color: rgb(172, 206, 240);
-    font-size: 25px;
+    font-size: auto;
     font-family: 'Times New Roman', Times, serif;
     
     
@@ -51,6 +55,9 @@ textarea {
     color: white;
     outline-style: solid;
     outline-color: lightskyblue;
+    max-width: 100%;
+    border: auto;
+    margin: auto;
 }
 
 * {
@@ -87,6 +94,7 @@ textarea {
    margin-top: 20px;
    outline-style: solid;
    outline-color: rgb(172, 206, 240) ;
+   max-width: 100%;
 }
 .column {
   float: left;

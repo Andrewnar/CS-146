@@ -13,7 +13,7 @@ h2 {
     text-align: center;
     text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     color: rgb(204, 99, 99);
-    font-size: 50px;
+    font-size: auto;
     font-family: 'Times New Roman', Times, serif;
 }
 h3 {
@@ -47,11 +47,15 @@ textarea {
     color: rgb(204, 99, 99);
     outline-style: solid;
     outline-color: lightsalmon;
+    max-width: 100%;
 }
 * {
   box-sizing: border-box;
 }
-
+.output{
+  width: 200px;
+  height: auto;
+}
 .header {
   padding: 30px;
   font-size: 35px;
@@ -78,8 +82,8 @@ textarea {
 
 .box {
    background-color: lemonchiffon;
-   padding: 20px;
-   margin-top: 20px;
+   padding: auto;
+   margin-top: auto;
    outline-style:solid;
    outline-color: lightsalmon;
 }
@@ -106,23 +110,23 @@ textarea {
 
 div.scroll {
     width: 50%;
-    height: 20%;
+    height: auto;
     overflow: auto;
     text-align: justify;
     padding: 20px;
 }
 .description {
-    height: 25%;
+    height: auto;
 }
 .about {
-    height:  15%;
+    height: auto;
 }
 .contact {
-    height: 35%;
+    height: auto;
 }
 .button{
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
     border-radius: 4px;
 }
