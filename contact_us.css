@@ -1,15 +1,12 @@
 body{
         background-color: #659DBD;
 }
-
-
-.header1
-{
-        font-size: 40px;
-        font-style: italic; 
-        color: darkred;
+h1 {
+        font-size: 60px;
 }
-
+p {
+        font-size: 30px;
+}
 .button{
         width: 150px;
         height: 30px;
