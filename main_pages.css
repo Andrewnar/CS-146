@@ -57,6 +57,7 @@ div.scroll {
 .description{
     margin-top: auto;
     font-size: 25px;
+    background-image: url("/images/main-background.jpeg");
 }
 .category{
     font-size: 40px;
