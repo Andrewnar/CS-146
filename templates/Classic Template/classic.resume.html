@@ -49,27 +49,18 @@ Write about you
 	</div>
 </div>
 
-
-	<script>  
-	function concactInfo() {  
-	var mylist = document.getElementById("contactInfo");  
-	document.getElementById("contactInfo").value = mylist.options[mylist.selectedIndex].text;  
-	}  
-	</script>  
-
-	<select id = "contactInfo" onchange = "favTutorial()" > 
+	<select id = "contactInfo" onchange = "contactInfo()" > 
 	<option> --Contact Info-- </option> 
-	<option> Email </option>  
-	<option> StackOverflow </option>  
-	<option> GitHub </option>  
-	<option> LinkedIn </option>  
-	<option> Handshake </option>  
+	<option>Email</option>  
+	<option>GitHub</option>  
+	<option>LinkedIn</option>   
 	</select>  
 
 	<form>
 	Information:
-	<input type="text" name="username">
+	<input type="text" name="username" id = "information">
 	</form>
+	<button class = "button" onclick = "updateInfo()">Submit</button>
 
 	<p><button class="button">Save</button>
 	<button class="button">Save As</button></p>
@@ -77,6 +68,12 @@ Write about you
 	<hr>
 	<p><a href="../../templates.html"><button class="button">Templates Page</button></a></p>
 	<p><a href="../../index.html"><button class="button">Home Page</button></a></p>
+
+	<div class = "footer" id = "footer">
+		<img src="../../images/email-icon.png" width = 25 height = 25 id = "email">
+		<img src="../../images/github-icon.png" width = 25 height = 25 id = "github">
+		<img src="../../images/linkedIn-Icon.png" width = 25 height = 25 id = "linkedin">
+	</div>
 
 </body>
 </html>
