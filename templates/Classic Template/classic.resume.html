@@ -4,6 +4,7 @@
 <title>Classic Resume</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="classic_style.css">
+<script src = "classic_JS.js"></script>
 <link rel="stylesheet" href="mobile.css"  media="screen and (max-width:480px)" />
 <link rel="stylesheet" href="tablet.css"  media="screen and (min-width:481px)
     and (max-width:768px)" />
@@ -17,13 +18,6 @@
 
 	<p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)"></p>
 	<p><img id="output" class = "output"/></p>
-
-	<script>
-	var loadFile = function(event) {
-		var image = document.getElementById('output');
-		image.src = URL.createObjectURL(event.target.files[0]);
-	};
-	</script>
 
 <div class = "row">
 	<div class = "column">
