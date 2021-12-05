@@ -15,14 +15,29 @@
 	<hr>
 	<h1>Atilla The Duck</h1>
 	<div class="row">
-		<a href="https://www.linkedin.com/in/Andrewnar" target="_blank"><img src="../../images/linkedIn-Icon.png" alt="○" class="social" id="linkedin"></a>
-		<a href="https://github.com/Andrewnar" target="_blank"><img src="../../images/github-icon.png" alt="○" class="social" id="github"></a>
-		<a href="mailto:anarvaez@stevens.edu" target="_blank"><img src="../../images/email-icon.png" alt="○" class="social" id="github"></a>
+		<a href="https://www.linkedin.com/in/Andrewnar" target="_blank" id = "linkedInLink"><img src="../../images/linkedIn-Icon.png" alt="○" class="social" id="linkedin"></a>
+		<a href="https://github.com/Andrewnar" target="_blank" id = "githubLink"><img src="../../images/github-icon.png" alt="○" class="social" id="github"></a>
+		<a href="mailto:anarvaez@stevens.edu" target="_blank" id = "emailLink"><img src="../../images/email-icon.png" alt="○" class="social" id="github"></a>
 	</div>
 
 	<p><a href="../../templates.html"><button class="button">Templates Page</button></a></p>
 	<p><a href="../../index.html"><button class="button">Home Page</button></a></p>
 
 	<hr>
+
+	<select id = "contactInfo" onchange = "contactInfo()" > 
+		<option> --Contact Info-- </option> 
+		<option>Email</option>  
+		<option>GitHub</option>  
+		<option>LinkedIn</option>   
+	</select> 
+
+	<form>
+		Information:
+		<input type="text" name="username" id = "information">
+	</form>
+	<button class = "subbutton" onclick = "updateInfo()">Submit</button>
+	
+
 </body>
 </html>
