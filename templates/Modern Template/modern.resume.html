@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="tablet.css"  media="screen and (min-width:481px)
     and (max-width:768px)" />
 <link rel="stylesheet" href="desktop.css" media="screen and (min-width:769px)" />
+<script src = "modern_resume.js"></script>
 </head>
 
 <body>
@@ -19,19 +20,22 @@
 	<div class = "column">
 	<h2>Experience</h2>
 	<p><textarea id="exp" name="exp" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
+
 	</textarea></p>
 	<hr>
 
 	<h2>Academics</h2>
 	<p><textarea id="academic" name="academic" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
+
 	</textarea></p>
 	<hr>
 
 	<h2>Objective</h2>
 	<p><textarea id="objective" name="objective" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
+
 	</textarea></p>
 	<hr>
 	</div>
@@ -39,47 +43,42 @@ Write about you
 	<div class = "column">
 	<h2>Skills</h2>
 	<p><textarea id="skills" name="skills" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
+
 	</textarea></p>
 	<hr>
 
 	<h2>Achievements</h2>
 	<p><textarea id="achievements" name="achievements" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
+
 	</textarea></p>
 	<hr>
 
 	<h2>Involvement</h2>
 	<p><textarea id="involvement" name="involvement" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
+
 	</textarea></p>
 	<hr>
 	</div>
 </div>
 
-	<script>  
-	function concactInfo() {  
-	var mylist = document.getElementById("contactInfo");  
-	document.getElementById("contactInfo").value = mylist.options[mylist.selectedIndex].text;  
-	}  
-	</script>  
-
-	<select id = "contactInfo" onchange = "favTutorial()" > 
-	<option> --Contact Info-- </option> 
-	<option> Email </option>  
-	<option> StackOverflow </option>  
-	<option> GitHub </option>  
-	<option> LinkedIn </option>  
-	<option> Handshake </option>  
-	</select>  
+<select id = "contentInfo" onchange = "contentInfo()" > 
+	<option> --Content Info-- </option> 
+	<option>Experience</option>  
+	<option>Skills</option>  
+	<option>Academics</option>  
+	<option>Achievements</option> 
+	<option>Objective</option> 
+	<option>Involvement</option> 
+</select>  
 
 	<form>
 	Information:
-	<input type="text" name="username">
+	<input type="text" name="userContent" id = "userContent">
 	</form>
-
-	<p><button class="button">Save</button>
-	<button class="button">Save As</button></p>
+	<button class = "subbutton" onclick = "updateContent()">Submit</button>
 
 	<hr>
 	<p><a href="modern.home.html"><button class="button">Modern Home</button></a></p>

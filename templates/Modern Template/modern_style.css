@@ -41,7 +41,7 @@ p {
     
 }
 form {
-    color: rgb(63, 63, 104);
+    color: rgb(172, 206, 240)
 }
 input {
     color: rgb(63, 63, 104);
@@ -139,4 +139,10 @@ div.scroll {
     height: 50px;
     font-size: 20px;
     border-radius: 4px;
+}
+.subbutton{
+  width: 75;
+  height: auto;
+  font-size: auto;
+  border-radius: 4px;
 }
