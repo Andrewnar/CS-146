@@ -20,6 +20,9 @@ function updateContent(){
 	} else if(infoType == "LinkedIn"){
 		var link = document.getElementById('linkedInLink');
 		link.setAttribute('href', info);
+	} else if(infoType == "Name"){
+		var nam = document.getElementById("userName");
+		nam.innerHTML = info;
 	}
 
 	document.getElementById("userContent").value = " ";

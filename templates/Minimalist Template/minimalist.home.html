@@ -13,7 +13,7 @@
 <body id = "minBody">
 	<h2>Minimalist Portfolio Template</h2>
 	<hr>
-	<h1>Atilla The Duck</h1>
+	<h1 id = "userName">Atilla The Duck</h1>
 	<div class="row">
 		<a href="https://www.linkedin.com/in/Andrewnar" target="_blank" id = "linkedInLink"><img src="../../images/linkedIn-Icon.png" alt="○" class="social" id="linkedin"></a>
 		<a href="https://github.com/Andrewnar" target="_blank" id = "githubLink"><img src="../../images/github-icon.png" alt="○" class="social" id="github"></a>
@@ -27,13 +27,14 @@
 
 	<select id = "contentInfo" onchange = "contentInfo()" > 
 		<option> --Content Info-- </option> 
+		<option>Name</option></optio>
 		<option>Email</option>  
 		<option>LinkedIn</option>  
 		<option>GitHub</option>  
 	</select>  
 	
 		<form>
-		Insert url:
+		Insert Info:
 		<input type="text" name="userContent" id = "userContent">
 		</form>
 		<button class = "subbutton" onclick = "updateContent()">Submit</button>
