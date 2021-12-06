@@ -19,19 +19,34 @@
 
 	<h2>Background</h2>
 	<p><textarea id="background" name="background" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
 	</textarea></p>
 
 	<h2>Interests</h2>
 	<p><textarea id="interests" name="interests" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
 	</textarea></p>
 
 	<h2>Hobbies</h2>
 	<p><textarea id="hobbies" name="hobbies" rows="4" cols="50">
-Write about you
+Insert your information in the forms below!
 	</textarea></p>
+	<hr>
 
+	<select id = "contentInfo" onchange = "contentInfo()" > 
+		<option> --Content Info-- </option> 
+		<option>Background</option>  
+		<option>Interests</option>  
+		<option>Hobbies</option>  
+	</select>  
+	
+		<form>
+		Information:
+		<input type="text" name="userContent" id = "userContent">
+		</form>
+		<button class = "subbutton" onclick = "updateContent()">Submit</button>
+
+	<hr>
 	<p><a href="modern.home.html"><button class="button">Modern Home</button></a></p>
 </body>
 </html>

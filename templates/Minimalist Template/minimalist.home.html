@@ -25,19 +25,18 @@
 
 	<hr>
 
-	<select id = "contactInfo" onchange = "contactInfo()"> 
-		<option> --Contact Info-- </option> 
+	<select id = "contentInfo" onchange = "contentInfo()" > 
+		<option> --Content Info-- </option> 
 		<option>Email</option>  
+		<option>LinkedIn</option>  
 		<option>GitHub</option>  
-		<option>LinkedIn</option>   
-	</select> 
-
-	<form>
-		Information:
-		<input type="text" name="username" id = "information">
-	</form>
-	<button class = "subbutton" onclick = "updateInfo()">Submit</button>
+	</select>  
 	
+		<form>
+		Copy url:
+		<input type="text" name="userContent" id = "userContent">
+		</form>
+		<button class = "subbutton" onclick = "updateContent()">Submit</button>
 
 </body>
 </html>
