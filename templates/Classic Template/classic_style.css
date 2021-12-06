@@ -70,6 +70,7 @@ textarea {
   text-align: center;
   background: lemonchiffon;
   margin-top: 20px;
+  margin-bottom: 20px;
   outline-style:solid;
   outline-color: lightsalmon;
 }
@@ -129,4 +130,10 @@ div.scroll {
     height: 40px;
     font-size: 15px;
     border-radius: 4px;
+}
+.subbutton{
+  width: 75;
+  height: auto;
+  font-size: auto;
+  border-radius: 4px;
 }
