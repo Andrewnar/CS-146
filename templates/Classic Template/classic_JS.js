@@ -3,7 +3,7 @@ var loadFile = function(event) {
 		image.src = URL.createObjectURL(event.target.files[0]);
 	};
 
-function concactInfo() {  
+function contactInfo() {  
 	var mylist = document.getElementById("contactInfo");  
 	document.getElementById("contactInfo").value = mylist.options[mylist.selectedIndex].text;  
 	}  

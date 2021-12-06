@@ -5,10 +5,10 @@ function colorSelect(element, code) {
     for(var i = 0; i < elms.length; i++) 
         elms[i].style.backgroundColor = element.value; 
 }
-function concactInfo() {  
+function contactInfo() {  
 	var mylist = document.getElementById("contactInfo");  
 	document.getElementById("contactInfo").value = mylist.options[mylist.selectedIndex].text;  
-}  
+	}  
 
 function updateInfo() {
 	var infoType = document.getElementById("contactInfo").value;
@@ -20,10 +20,10 @@ function updateInfo() {
 	}
 	if (infoType == "GitHub") {
 		var github = document.getElementById('githubLink');
-		github.setAttribute('href', info);
+		github.setAttribute("href", info);
 	}
 	if (infoType == "Email") {
 		var email = document.getElementById('emailLink');
-		email.setAttribute('href', info);
+		email.setAttribute("href", info);
 	}
 }
