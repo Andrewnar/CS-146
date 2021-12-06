@@ -46,4 +46,6 @@ function updateInfo() {
 		var email = document.getElementById('email');
 		email.insertAdjacentHTML('afterend', "     ".concat(info));
 	}
+	document.getElementById("information").value = " ";
+
 }
