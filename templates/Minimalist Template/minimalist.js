@@ -34,4 +34,5 @@ function changeColor() {
 function changeTextColor() {
 	let color = document.getElementById('colorInputText').value;
 	document.getElementById("userName").style.color = color;
+	document.getElementById("title").style.color = color;
 }
