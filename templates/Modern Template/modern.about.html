@@ -12,22 +12,22 @@
 </head>
 
 <body>
-	<h1>About</h1>
+	<h1 id = "aboutTitle">About</h1>
 
 	<p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)"></p>
 	<p><img id="output" width="200" /></p>
 
-	<h2>Background</h2>
+	<h2 id = "backTitle">Background</h2>
 	<p><textarea id="background" name="background" rows="4" cols="50">
 Insert your information in the forms below!
 	</textarea></p>
 
-	<h2>Interests</h2>
+	<h2 id = "intTitle">Interests</h2>
 	<p><textarea id="interests" name="interests" rows="4" cols="50">
 Insert your information in the forms below!
 	</textarea></p>
 
-	<h2>Hobbies</h2>
+	<h2 id = "hobTitle">Hobbies</h2>
 	<p><textarea id="hobbies" name="hobbies" rows="4" cols="50">
 Insert your information in the forms below!
 	</textarea></p>
@@ -40,21 +40,24 @@ Insert your information in the forms below!
 		<option>Hobbies</option>  
 	</select>  
 	
-		<form>
+		<form id = "formText">
 		Information:
 		<input type="text" name="userContent" id = "userContent">
 		</form>
 		<button class = "subbutton" onclick = "updateContent()">Submit</button>
-	    	<h3>Change Background Color Via Text</h3>
 
-		<input type="text" id="colorInputText">
-
-		<input type="color" id="colorInputColor">
-
-		<input type="button" id="colorButton" value="Click to Change Color"
+		<br><br>
+		<input type="color" id="colorInputBackground">
+		<input type="button" id="colorButton" value="Change background color" 
 		onclick="changeColor()">
-
-		<script src = "modern_JS.js"></script>
+		<br>
+		<input type="color" id="colorInputSubBackground">
+		<input type="button" id="colorButton" value="Change sub-background color" 
+		onclick="changeSubBackgroundColor()">
+		<br>
+		<input type="color" id="colorInputText">
+		<input type="button" id="colorButton" value="Change text color" 
+		onclick="changeTextColor()">
 
 	<hr>
 	<p><a href="modern.home.html"><button class="button">Modern Home</button></a></p>

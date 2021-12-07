@@ -23,7 +23,29 @@ function updateContent(){
 	document.getElementById("userContent").value = " ";
 }
 function changeColor() {
-	let color = document.getElementById('colorInputColor').value;
+	let color = document.getElementById('colorInputBackground').value;
 	document.body.style.backgroundColor = color;
-	document.getElementById('colorInputText').value = color;
+}
+function changeTextColor() {
+	let color = document.getElementById('colorInputText').value;
+	document.getElementById("aboutTitle").style.color = color;
+	//Titles
+	document.getElementById("backTitle").style.color = color;
+	document.getElementById("intTitle").style.color = color;
+	document.getElementById("hobTitle").style.color = color;
+	//Text <b>
+	document.getElementById("background").style.color = color;
+	document.getElementById("interests").style.color = color;
+	document.getElementById("hobbies").style.color = color;
+	document.getElementById("formText").style.color = color;
+	document.getElementById("userContent").style.color = color;
+
+
+}
+function changeSubBackgroundColor(){
+	let color = document.getElementById('colorInputSubBackground').value;
+	document.getElementById("background").style.backgroundColor = color;
+	document.getElementById("interests").style.backgroundColor = color;
+	document.getElementById("hobbies").style.backgroundColor = color;
+
 }

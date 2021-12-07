@@ -29,7 +29,29 @@ function updateContent(){
 	document.getElementById("userContent").value = " ";
 }
 function changeColor() {
-	let color = document.getElementById('colorInputColor').value;
+	let color = document.getElementById('colorInputBackground').value;
 	document.body.style.backgroundColor = color;
-	document.getElementById('colorInputText').value = color;
 }
+function changeTextColor() {
+	let color = document.getElementById('colorInputText').value;
+	document.getElementById("resumeTitle").style.color = color;
+	//Titles
+	document.getElementById("aboutMeTitle").style.color = color;
+	document.getElementById("academicTitle").style.color = color;
+	document.getElementById("expTitle").style.color = color;
+	document.getElementById("achievTitle").style.color = color;
+	//Text <b>
+	document.getElementById("about").style.color = color;
+	document.getElementById("academic").style.color = color;
+	document.getElementById("exp").style.color = color;
+	document.getElementById("achievements").style.color = color;
+}
+function changeSubBackgroundColor(){
+	let color = document.getElementById('colorInputSubBackground').value;
+	document.getElementById("about").style.backgroundColor = color;
+	document.getElementById("academic").style.backgroundColor = color;
+	document.getElementById("exp").style.backgroundColor = color;
+	document.getElementById("achievements").style.backgroundColor = color;
+	document.getElementById("footer").style.backgroundColor = color;
+}
+
