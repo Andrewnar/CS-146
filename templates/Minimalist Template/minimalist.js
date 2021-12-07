@@ -13,7 +13,7 @@ function updateContent(){
 	
 	if(infoType == "Email"){
 		var email = document.getElementById('emailLink');
-		email.setAttribute('href', info);
+		email.setAttribute('href', "mailto:" + info);
 	} else if(infoType == "GitHub"){
 		var git = document.getElementById('githubLink');
 		git.setAttribute('href', info);
