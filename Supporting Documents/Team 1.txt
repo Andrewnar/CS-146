@@ -9,17 +9,17 @@ CS-146
 
 -templates
 --Classic template
----js
----css
----html
+---classic_JS.js
+---classic_style.css
+---classic.resume.html
 
 --Minimalist template
----js
----css
----html
+---minimalist.js
+---minimalist_style.css
+---minimalist.home.html
 
 --Modern template
----css
+---modern_style.css
 ---resume.js
 ---resume.html
 ---home.html
