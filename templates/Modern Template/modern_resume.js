@@ -36,22 +36,29 @@ function changeTextColor() {
 	let color = document.getElementById('colorInputText').value;
 	document.getElementById("resumeTitle").style.color = color;
 	//Titles
-	document.getElementById("aboutMeTitle").style.color = color;
-	document.getElementById("academicTitle").style.color = color;
+	document.getElementById("acaTitle").style.color = color;
 	document.getElementById("expTitle").style.color = color;
-	document.getElementById("achievTitle").style.color = color;
+	document.getElementById("skillsTitle").style.color = color;
+	document.getElementById("objTitle").style.color = color;
+	document.getElementById("achTitle").style.color = color;
+	document.getElementById("involveTitle").style.color = color;
 	//Text <b>
-	document.getElementById("about").style.color = color;
-	document.getElementById("academic").style.color = color;
 	document.getElementById("exp").style.color = color;
+	document.getElementById("academic").style.color = color;
+	document.getElementById("objective").style.color = color;
+	document.getElementById("skills").style.color = color;
 	document.getElementById("achievements").style.color = color;
+	document.getElementById("involvement").style.color = color;
+	document.getElementById("infoTitle").style.color = color;
+
 }
 function changeSubBackgroundColor(){
 	let color = document.getElementById('colorInputSubBackground').value;
-	document.getElementById("about").style.backgroundColor = color;
-	document.getElementById("academic").style.backgroundColor = color;
 	document.getElementById("exp").style.backgroundColor = color;
+	document.getElementById("academic").style.backgroundColor = color;
+	document.getElementById("objective").style.backgroundColor = color;
+	document.getElementById("skills").style.backgroundColor = color;
 	document.getElementById("achievements").style.backgroundColor = color;
-	document.getElementById("footer").style.backgroundColor = color;
+	document.getElementById("involvement").style.backgroundColor = color;
 }
 

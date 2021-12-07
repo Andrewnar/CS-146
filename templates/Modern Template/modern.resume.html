@@ -12,27 +12,27 @@
 </head>
 
 <body>
-	<h1>Resume</h1>
+	<h1 id = "resumeTitle">Resume</h1>
 
 	<hr>
 
 <div class = "row">
 	<div class = "column">
-	<h2>Experience</h2>
+	<h2 id = "expTitle">Experience</h2>
 	<p><textarea id="exp" name="exp" rows="4" cols="50">
 Insert your information in the forms below!
 
 	</textarea></p>
 	<hr>
 
-	<h2>Academics</h2>
+	<h2 id = "acaTitle">Academics</h2>
 	<p><textarea id="academic" name="academic" rows="4" cols="50">
 Insert your information in the forms below!
 
 	</textarea></p>
 	<hr>
 
-	<h2>Objective</h2>
+	<h2 id = "objTitle">Objective</h2>
 	<p><textarea id="objective" name="objective" rows="4" cols="50">
 Insert your information in the forms below!
 
@@ -41,21 +41,21 @@ Insert your information in the forms below!
 	</div>
 
 	<div class = "column">
-	<h2>Skills</h2>
+	<h2 id = "skillsTitle">Skills</h2>
 	<p><textarea id="skills" name="skills" rows="4" cols="50">
 Insert your information in the forms below!
 
 	</textarea></p>
 	<hr>
 
-	<h2>Achievements</h2>
+	<h2 id = "achTitle">Achievements</h2>
 	<p><textarea id="achievements" name="achievements" rows="4" cols="50">
 Insert your information in the forms below!
 
 	</textarea></p>
 	<hr>
 
-	<h2>Involvement</h2>
+	<h2 id = "involveTitle">Involvement</h2>
 	<p><textarea id="involvement" name="involvement" rows="4" cols="50">
 Insert your information in the forms below!
 
@@ -74,21 +74,24 @@ Insert your information in the forms below!
 	<option>Involvement</option> 
 </select>  
 
-	<form>
+	<form id = "infoTitle">
 	Information:
 	<input type="text" name="userContent" id = "userContent">
 	</form>
 	<button class = "subbutton" onclick = "updateContent()">Submit</button>
-	<h3>Change Background Color Via Text</h3>
 
- 	 <input type="text" id="colorInputText">
-
-  	<input type="color" id="colorInputColor">
-
-  	<input type="button" id="colorButton" value="Click to Change Color"
+	<br><br>
+	<input type="color" id="colorInputBackground">
+	<input type="button" id="colorButton" value="Change background color" 
 	onclick="changeColor()">
-
-  	<script src = "modern_resume.js"></script>
+	<br>
+	<input type="color" id="colorInputSubBackground">
+	<input type="button" id="colorButton" value="Change sub-background color" 
+	onclick="changeSubBackgroundColor()">
+	<br>
+	<input type="color" id="colorInputText">
+	<input type="button" id="colorButton" value="Change text color" 
+	onclick="changeTextColor()">
 
 	<hr>
 	<p><a href="modern.home.html"><button class="button">Modern Home</button></a></p>
