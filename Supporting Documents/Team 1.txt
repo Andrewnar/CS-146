@@ -1,0 +1,41 @@
+Directory of Website:
+
+CS-146
+-images
+--etc.jpg
+-Supporting Documents
+--Team 1.txt
+--Presentation.ppt
+
+-templates
+--Classic template
+---js
+---css
+---html
+
+--Minimalist template
+---js
+---css
+---html
+
+--Modern template
+---css
+---resume.js
+---resume.html
+---home.html
+---modern.js
+---about.html
+---about.js
+
+index.html
+contact_us.html
+reviews.html
+templates.html
+
+main_pages.css
+reviews_style.css
+contact_us.css
+
+desktop.css
+mobile.css
+tablet.css
