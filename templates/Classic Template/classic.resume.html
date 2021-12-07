@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<h1>Resume</h1>
+	<h1 id = "resumeTitle">Resume</h1>
 
 	<hr>
 
@@ -21,13 +21,13 @@
 
 <div class = "row">
 	<div class = "column">
-	<h2>About Me</h2>
+	<h2 id = "aboutMeTitle">About Me</h2>
 	<p><textarea id="about" name="about" rows="4" cols="50">
 Insert your information in the forms below!
 	</textarea></p>
 	<hr>
 
-	<h2>Experience</h2>
+	<h2 id = "expTitle">Experience</h2>
 	<p><textarea id="exp" name="exp" rows="4" cols="50">
 Insert your information in the forms below!
 	</textarea></p>
@@ -35,13 +35,13 @@ Insert your information in the forms below!
 	</div>
 
 	<div class = "column">
-	<h2>Academics</h2>
+	<h2 id = "academicTitle">Academics</h2>
 	<p><textarea id="academic" name="academic" rows="4" cols="50">
 Insert your information in the forms below!
 	</textarea></p>
 	<hr>
 
-	<h2>Achievements</h2>
+	<h2 id = "achievTitle">Achievements</h2>
 	<p><textarea id="achievements" name="achievements" rows="4" cols="50">
 Insert your information in the forms below!
 	</textarea></p>
@@ -56,6 +56,7 @@ Insert your information in the forms below!
 	<img src="../../images/linkedIn-Icon.png" width = 25 height = 25 id = "linkedin">
 </div>
 <hr>
+<h2 class = "userCustomTitle">User Customization</h2>
 	<select id = "contactInfo" onchange = "contactInfo()" > 
 	<option> --Contact Info-- </option> 
 	<option>Email</option>  
@@ -68,16 +69,6 @@ Insert your information in the forms below!
 	<input type="text" name="username" id = "information">
 	</form>
 	<button class = "subbutton" onclick = "updateInfo()">Submit</button>
-	 <h3>Change Background Color Via Text</h3>
-
-  	<input type="text" id="colorInputText">
-
-  	<input type="color" id="colorInputColor">
-
-  	<input type="button" id="colorButton" value="Click to Change Color"
-  	onclick="changeColor()">
-
-  	<script src = "classic_JS.js"></script>
 
 	<br><br>
 
@@ -96,15 +87,21 @@ Insert your information in the forms below!
 		</form>
 		<button class = "subbutton" onclick = "updateContent()">Submit</button>
 
+		<br><br>
+		<input type="color" id="colorInputBackground">
+		<input type="button" id="colorButton" value="Change background color" 
+		onclick="changeColor()">
+		<br>
+		<input type="color" id="colorInputSubBackground">
+		<input type="button" id="colorButton" value="Change sub-background color" 
+		onclick="changeSubBackgroundColor()">
+		<br>
+		<input type="color" id="colorInputText">
+		<input type="button" id="colorButton" value="Change text color" 
+		onclick="changeTextColor()">
 	<hr>
-	<p><a href="../../templates.html"><button class="button">Templates Page</button></a></p>
-	<p><a href="../../index.html"><button class="button">Home Page</button></a></p>
-
-	<div class = "footer" id = "footer">
-		<img src="../../images/email-icon.png" width = 25 height = 25 id = "email">
-		<img src="../../images/github-icon.png" width = 25 height = 25 id = "github">
-		<img src="../../images/linkedIn-Icon.png" width = 25 height = 25 id = "linkedin">
-	</div>
+	<p><a href="../../templates.html"><button class="button">Templates Page</button></a>
+	<a href="../../index.html"><button class="button">Home Page</button></a></p>
 
 </body>
 </html>
