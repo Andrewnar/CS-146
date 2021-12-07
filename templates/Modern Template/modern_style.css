@@ -146,3 +146,10 @@ div.scroll {
   font-size: auto;
   border-radius: 4px;
 }
+.userCustomTitle{
+  margin:auto;
+  text-align: left;
+  padding-bottom: 10px;
+  text-shadow: none;
+  font-size: 30px;
+}

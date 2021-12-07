@@ -39,6 +39,8 @@ function changeTextColor() {
 	document.getElementById("hobbies").style.color = color;
 	document.getElementById("formText").style.color = color;
 	document.getElementById("userContent").style.color = color;
+	document.getElementById("userCustomTitle").style.color = color;
+
 
 
 }

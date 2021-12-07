@@ -50,6 +50,7 @@ function changeTextColor() {
 	document.getElementById("achievements").style.color = color;
 	document.getElementById("involvement").style.color = color;
 	document.getElementById("infoTitle").style.color = color;
+	document.getElementById("userCustomTitle").style.color = color;
 
 }
 function changeSubBackgroundColor(){
