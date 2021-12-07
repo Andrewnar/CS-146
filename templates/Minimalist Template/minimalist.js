@@ -28,7 +28,10 @@ function updateContent(){
 	document.getElementById("userContent").value = " ";
 }
 function changeColor() {
-	let color = document.getElementById('colorInputColor').value;
+	let color = document.getElementById('colorInputBackground').value;
 	document.body.style.backgroundColor = color;
-	document.getElementById('colorInputText').value = color;
+}
+function changeTextColor() {
+	let color = document.getElementById('colorInputText').value;
+	document.getElementById("userName").style.color = color;
 }

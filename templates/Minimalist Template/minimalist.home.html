@@ -24,7 +24,7 @@
 	</div>
 
 	
-
+	<br><br>
 	<hr>
 
 	<select id = "contentInfo" onchange = "contentInfo()" > 
@@ -40,14 +40,15 @@
 		<input type="text" name="userContent" id = "userContent">
 		</form>
 		<button class = "subbutton" onclick = "updateContent()">Submit</button>
-		<h3>Change Background Color Via Text</h3>
-	
-		<input type="text" id="colorInputText">
 
-		<input type="color" id="colorInputColor">
-	
-		<input type="button" id="colorButton" value="Click to Change Color" 
+		<br><br>
+		<input type="color" id="colorInputBackground">
+		<input type="button" id="colorButton" value="Change background color" 
 		onclick="changeColor()">
+		<br>
+		<input type="color" id="colorInputText">
+		<input type="button" id="colorButton" value="Change text color" 
+		onclick="changeTextColor()">
 
 		<script src = "minimalist.js"></script>
 	<hr>
