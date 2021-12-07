@@ -27,15 +27,15 @@ CS-146
 ---about.html
 ---about.js
 
-index.html
-contact_us.html
-reviews.html
-templates.html
+-index.html
+-contact_us.html
+-reviews.html
+-templates.html
 
-main_pages.css
-reviews_style.css
-contact_us.css
+-main_pages.css
+-reviews_style.css
+-contact_us.css
 
-desktop.css
-mobile.css
-tablet.css
+-desktop.css
+-mobile.css
+-tablet.css
